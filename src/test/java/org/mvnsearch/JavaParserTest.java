@@ -9,6 +9,9 @@ import com.github.javaparser.ast.body.TypeDeclaration;
 import com.github.javaparser.printer.YamlPrinter;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+import java.io.FileReader;
+
 import static com.github.javaparser.StaticJavaParser.parse;
 
 /**
@@ -37,7 +40,9 @@ public class JavaParserTest {
     }
 
     @Test
-    void testYamlPrinter() {
-        YamlPrinter.print(StaticJavaParser.parse("class X{ private int id;}"));
+    void testYamlPrinter() throws Exception {
+        FileReader fileReader = new FileReader(new File("src/main/java/org/mvnsearch/User.java"));
+        YamlPrinter.print(StaticJavaParser.parse(fileReader));
+        fileReader.close();
     }
 }

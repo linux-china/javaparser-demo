@@ -17,3 +17,4 @@ Java Parser demo: Parse, Analyse, Transform and Generate.
 * VMF: lightweight modeling framework. It conveniently translates annotated Java interfaces into powerful implementations https://github.com/miho/VMF
 * JSqlParser: parses an SQL statement and translate it into a hierarchy of Java classes https://github.com/JSQLParser/JSqlParser
 * Acorn: A small, fast, JavaScript-based JavaScript parser https://github.com/acornjs/acorn
+* Esprima: high performance, standard-compliant ECMAScript parser written in ECMAScript https://esprima.org/

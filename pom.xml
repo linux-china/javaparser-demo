@@ -14,7 +14,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>14</java.version>
-        <javaparser.version>3.15.18</javaparser.version>
+        <javaparser.version>3.15.21</javaparser.version>
     </properties>
 
     <dependencies>

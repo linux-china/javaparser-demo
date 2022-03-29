@@ -6,6 +6,7 @@ Java Parser demo: Parse, Analyse, Transform and Generate.
 # References
 
 * Java Parser: https://javaparser.org/ https://github.com/javaparser/javaparser
+* Java Parser Features: https://github.com/javaparser/javaparser/blob/master/FEATURES.md 
 * "JavaParser: Visited" Book: https://leanpub.com/javaparservisited
 * Code samples for the book "JavaParser: Visited": https://github.com/javaparser/javaparser-visited
 * JavaPoet: Java API for generating .java source files https://github.com/square/javapoet
